@@ -63,9 +63,6 @@ CREATE TABLE IF NOT EXISTS `user` (
 
 INSERT INTO `user` (`id`, `name`, `email`, `password`) VALUES
 (1, 'Sasa', 'nikolic.cs@gmail.com', 'sasad'),
-(2, 'Sasa', 'nikolic.cs@gmail.com', '12345'),
-(3, 'Sasa', 'frilenser.sn@gmail.com', '12345'),
-(4, 'Sasa', 'nikolic.cs@gmail.com', '123456'),
 (5, 'vuk', 'ndragan204@gmail.com', '123456'),
 (6, '', '', ''),
 (7, '', '', ''),
@@ -226,8 +223,6 @@ INSERT INTO `user` (`id`, `name`, `email`, `password`) VALUES
 (162, '', '', ''),
 (163, '', '', ''),
 (164, '', '', ''),
-(165, '', '', ''),
-(166, 'Sasa', 'root@gmail.com', 'Rf@2Eb65K2m#qB'),
 (167, 'sasa', 'sasa@gmail.com', 'sasa');
 COMMIT;
 
